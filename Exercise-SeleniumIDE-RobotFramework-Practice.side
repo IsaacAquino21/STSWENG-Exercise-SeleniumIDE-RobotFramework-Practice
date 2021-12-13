@@ -1,7 +1,7 @@
 {
   "id": "7b5a5d50-3aa7-490f-9a1d-b3011edb5a9a",
   "version": "2.0",
-  "name": "Exercise:SeleniumIDE &amp; RobotFramework Practice",
+  "name": "Exercise-SeleniumIDE-RobotFramework-Practice",
   "url": "https://www.saucedemo.com",
   "tests": [{
     "id": "02a32d35-106e-464b-9109-64e90c26434f",
@@ -336,21 +336,6 @@
       ],
       "value": "problem_user"
     }, {
-      "id": "b377d25c-efd2-46da-b5b7-a24da7c1839d",
-      "comment": "",
-      "command": "click",
-      "target": "css=*[data-test=\"password\"]",
-      "targets": [
-        ["css=*[data-test=\"password\"]", "css:data-attr"],
-        ["id=password", "id"],
-        ["name=password", "name"],
-        ["css=#password", "css:finder"],
-        ["xpath=//input[@id='password']", "xpath:attributes"],
-        ["xpath=//div[@id='login_button_container']/div/form/div[2]/input", "xpath:idRelative"],
-        ["xpath=//div[2]/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "47c81165-d3d2-4f54-9e1f-508af9b02540",
       "comment": "",
       "command": "click",
@@ -381,7 +366,7 @@
       ],
       "value": "secret_sauce"
     }, {
-      "id": "379576d4-c83c-4736-aec0-9bc67d093873",
+      "id": "ae77f73c-e03d-4fea-85ce-aee2f855cd85",
       "comment": "",
       "command": "click",
       "target": "css=*[data-test=\"login-button\"]",
@@ -395,6 +380,28 @@
         ["xpath=//form/input", "xpath:position"]
       ],
       "value": ""
+    }, {
+      "id": "379576d4-c83c-4736-aec0-9bc67d093873",
+      "comment": "",
+      "command": "click",
+      "target": "//*[@id=\"item_4_title_link\"]",
+      "targets": [
+        ["css=*[data-test=\"login-button\"]", "css:data-attr"],
+        ["id=login-button", "id"],
+        ["name=login-button", "name"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//input[@id='login-button']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebc7bdee-1690-4586-8afb-e5e0b36d3347",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"inventory_item_container\"]/div/div/div[2]/div[1]",
+      "targets": [],
+      "value": "Sauce Labs Fleece Jacket"
     }]
   }],
   "suites": [{
